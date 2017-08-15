@@ -5,4 +5,4 @@ machine:
     version: 7.1.0
 test:
   override:
-    - phpunit application/tests/
+    - cd application/tests && ../../vendor/bin/phpunit
