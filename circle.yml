@@ -1,4 +1,3 @@
 test:
   override:
-    - cd application/tests
-  - ../../vendor/bin/phpunit
+    - phpunit application/controller/tests
