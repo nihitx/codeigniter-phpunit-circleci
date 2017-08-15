@@ -6,3 +6,6 @@ machine:
 test:
   override:
     - cd application/tests && ../../vendor/bin/phpunit
+general:
+  artifacts:
+    - "application/tests/build/logs"
