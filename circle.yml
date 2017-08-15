@@ -5,4 +5,4 @@ machine:
     version: 7.1.0
 test:
   override:
-    - phpunit application/controller/tests
+    - phpunit application/controller/tests/phpunit.xml
