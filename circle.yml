@@ -1,0 +1,4 @@
+test:
+  override:
+    - cd application/tests
+  - ../../vendor/bin/phpunit
